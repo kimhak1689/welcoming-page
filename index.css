@@ -132,6 +132,14 @@ body {
   line-height: 1;
 }
 
+.interests .icon-box img {
+  width: 32px; /* Set the width to match the desired size */
+  height: 32px; /* Set the height to match the desired size */
+  padding-right: 10px;
+  line-height: 1;
+
+}
+
 .interests .icon-box h3 {
   font-weight: 300;
   margin: 0;
@@ -215,3 +223,49 @@ body {
   .blog-entry .meta > div a {
     font-size: 15px;
     color: #8c8c8c; }
+
+    .profile-heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+  }
+  
+  .profile-text {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+  }
+  
+  .section-heading {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+      margin-top: 30px;
+      margin-bottom: 15px;
+  }
+  
+  .experience-item, .education-item {
+      background-color: #f0f3f8;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .experience-item h4, .education-item h4 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .company, .institution {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 5px;
+  }
+  
+  .duration {
+      font-size: 14px;
+      color: #777;
+  }
+  
